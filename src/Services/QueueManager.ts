@@ -1,5 +1,4 @@
 export interface QueueManager {
-  constructor(config: any): void
   connect(): Promise<QueueManager>
   send(queue: string, msg: any, options?: any): Promise<void>
   consumer(
@@ -9,9 +8,8 @@ export interface QueueManager {
   ack(data: any): Promise<void>
   disconnect(): Promise<void>
 }
-
-export namespace QueueManager {
-  export type Options = {
+export declare namespace QueueManager {
+  type Options = {
     prefetch?: number
     queue: string
   }
