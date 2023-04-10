@@ -13,18 +13,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/npclean/npclean.git"
+    "url": "git+https://github.com/athusjs/athus.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/npclean/npclean/issues"
+    "url": "https://github.com/athusjs/athus/issues"
   },
   "lint-staged": {
     "*": "your-cmd"
   },
-  "homepage": "https://github.com/npclean/npclean#readme",
+  "homepage": "https://github.com/athusjs/athus#readme",
   "devDependencies": {
     "husky": "^8.0.3",
     "lint-staged": "^13.2.1",
