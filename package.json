@@ -1,0 +1,38 @@
+{
+  "name": "athus",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": ">=12"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx prettier src/** --write",
+    "build": "rimraf ./dist; tsc build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npclean/npclean.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/npclean/npclean/issues"
+  },
+  "lint-staged": {
+    "*": "your-cmd"
+  },
+  "homepage": "https://github.com/npclean/npclean#readme",
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.1",
+    "prettier": "^2.8.7",
+    "typescript": "^5.0.4",
+    "vitest": "^0.29.8"
+  },
+  "dependencies": {
+    "rimraf": "^4.4.1"
+  }
+}
