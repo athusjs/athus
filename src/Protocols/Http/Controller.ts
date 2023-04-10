@@ -1,5 +1,5 @@
-import { Response, Request } from "./index";
+import { Response, Request } from "./index"
 
-export interface Controller{
+export interface Controller {
   handle(req: Request): Promise<Response>
 }

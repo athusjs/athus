@@ -1,5 +1,5 @@
 {
-  "name": "athus",
+  "name": "athusjs",
   "version": "1.0.0",
   "description": "",
   "engines": {
@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "npx prettier src/** --write",
-    "build": "rimraf ./dist; tsc build"
+    "build": "rimraf ./dist; tsc"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
     "url": "https://github.com/athusjs/athus/issues"
   },
   "lint-staged": {
-    "*": "your-cmd"
+    "*": ["npm run lint"]
   },
   "homepage": "https://github.com/athusjs/athus#readme",
   "devDependencies": {
